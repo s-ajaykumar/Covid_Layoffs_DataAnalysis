@@ -2,7 +2,7 @@ SELECT *
 FROM 
 	datacleaningproject1.layoffs;
     
-##Creating copy of the table
+--Creating copy of the table
 
 CREATE TABLE layoffs1
 LIKE datacleaningproject1.layoffs;
